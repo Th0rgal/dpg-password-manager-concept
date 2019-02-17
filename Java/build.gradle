@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'dpg'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.bouncycastle:bcmail-jdk14:1.61'
+}
